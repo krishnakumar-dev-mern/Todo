@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const API = "http://localhost:5000";
+const API = "http://192.168.1.5:5000/todos";
 
 export default function App() {
   const [items, setItems] = useState([]);
