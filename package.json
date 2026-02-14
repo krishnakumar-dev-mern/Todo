@@ -2,14 +2,15 @@
   "name": "app-todo",
   "private": true,
   "version": "0.0.0",
-  "homepage":"https://krishnakumar-mern-dev.github.io/Todo",
+  "homepage":".",
   "type": "module",
   "scripts": {
+    "start":"reacr-scripts-start",
+    "build":"react-scripts-build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "node server.js",
     "predeploy":"npm run build",
     "deploy":"gh-pages -d build"
     
